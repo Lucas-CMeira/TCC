@@ -3,11 +3,16 @@ import LoginPage from "../pages/login/login-page";
 import HomePage from "../pages/home/home-page";
 import App from "../App";
 import ProfilePage from "../pages/profile/profile-page";
+import CadastroPage from "../pages/login/cadastro-page";
 
 const routes = createBrowserRouter([
     {
         path: "/login",
         element: <LoginPage/>
+    },
+    {
+        path: "/cadastro",
+        element: <CadastroPage/>
     },
     {
         path: "/",
@@ -21,7 +26,8 @@ const routes = createBrowserRouter([
             {
                 path: "/profile",
                 element: <ProfilePage/>
-            }
+            },
+            
         ]
     }
 ]) 
