@@ -1,6 +1,6 @@
 import logo from "../assets/logo.jpg";
 
-const forms = () => {
+const Forms = () => {
   return (
     <div className="w-96 border border-gray-400 rounded-lg shadow-md p-6 flex flex-col gap-4">
       <div className="flex flex-col items-center gap-2">
@@ -33,4 +33,4 @@ const forms = () => {
   );
 };
 
-export default forms;
+export default Forms;
