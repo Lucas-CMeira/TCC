@@ -2,19 +2,10 @@ import logo from "../assets/logo.jpg";
 
 const Form = () => {
   return (
-    <div className="w-[500px] border border-gray-500 rounded-lg shadow-md p-6 flex flex-col gap-4">
+    <div className="w-[500px] bg-zinc-100 border border-zinc-200 rounded-lg shadow-md p-6 flex flex-col gap-4">
       <div className="flex flex-col items-center gap-2">
         <img src={logo} alt="Imagem de finanças" className="w-48 h-48" />
         <h2 className="font-semibold"> Acesse sua conta agora!</h2>
-      </div>
-      <div className="flex flex-col gap-1">
-        <label htmlFor="name">Nome:</label>
-        <input
-          type="text"
-          placeholder="Digite seu nome"
-          id="name"
-          className="border rounded-md p-1.5 hover:bg-slate-100"
-        />
       </div>
       <div className="flex flex-col gap-1">
         <label htmlFor="email">Email:</label>
