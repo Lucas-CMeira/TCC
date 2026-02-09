@@ -40,8 +40,8 @@ const HomePage = () => {
         </div>
 
         <div className="flex justify-between mt-2 text-sm text-slate-500">
-          <p>R$ 0,00 economizado</p>
-          <p>R$ 0,00 objetivo</p>
+          <p>R$ 10,00 economizado</p>
+          <p>R$ 100,000 objetivo</p>
         </div>
       </div>
       <div className="bg-white p-6 rounded-xl shadow">
