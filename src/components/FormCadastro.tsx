@@ -2,7 +2,7 @@ import logo from "../assets/logo.jpg";
 
 const FormCadastro = () => {
   return (
-    <div className="w-[500px] bg-zinc-100 border border-zinc-200 rounded-lg shadow-md p-6 flex flex-col gap-4">
+    <div className="w-[500px] border border-zinc-300 rounded-lg shadow-md p-6 flex flex-col gap-4">
       <div className="flex flex-col items-center gap-2">
         <img src={logo} alt="Imagem de finanças" className="w-48 h-48" />
         <h2 className="font-semibold"> Crie sua conta fácil e prático!</h2>
