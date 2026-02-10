@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className=" text-zinc-200 flex items-center gap-2 bg-red-600 cursor-pointer shadow-md p-2 rounded-md bg-transparent hover:bg-red-800 transition hover:text-slate-300"
+        className=" text-zinc-200 flex items-center gap-2 bg-red-600 cursor-pointer shadow-md p-2 rounded-md  hover:bg-red-800 transition hover:text-slate-300"
         onClick={() => navigate("/login")}
       >
         <MdLogout />
